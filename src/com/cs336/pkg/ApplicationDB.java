@@ -31,15 +31,8 @@ public class ApplicationDB {
         }
         try {
             //Create a connection to your DB
-            connection = DriverManager.getConnection(connectionUrl,"root", "AIChatbot!28");
+            connection = DriverManager.getConnection(connectionUrl,"root", "root");
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
-        	try {
-        		connection = DriverManager.getConnection(connectionUrl,"root", "Burchard27!");
-        	} catch (SQLException f){
-        		
-        	}
-            e.printStackTrace();
         }
 
         return connection;
