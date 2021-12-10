@@ -612,7 +612,7 @@ tr:nth-child(even) {
 				out.print("</td>");
 				
 				out.print("<td>");
-				out.print("Number of Seats");
+				out.print("Number of Stops");
 				out.print("</td>");
 				
 				out.print("<td>");
@@ -788,7 +788,7 @@ tr:nth-child(even) {
 				out.print("</td>");
 				
 				out.print("<td>");
-				out.print("Number of Seats");
+				out.print("Number of Stops");
 				out.print("</td>");
 				
 				out.print("<td>");
